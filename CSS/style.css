@@ -22,6 +22,7 @@ a:hover {
 
 
 /* Fixed Top */
+/* Fixed Top */
 .fixed-section{
     position: fixed;
     width: 100%;
@@ -47,6 +48,8 @@ a:hover {
 
 
 
+/* Top Section */
+/* Top Section */
 /* Top Section */
 .top-section-container{
     display: flex;
@@ -191,6 +194,7 @@ a:hover {
 
 
 
+/* NAVIGATION SECTION */
 /* NAVIGATION SECTION */
 .navigation-parent{
     display: grid;
@@ -637,7 +641,6 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     background-image: url(../images/Rectangle.png);
-    /* background-repeat: no-repeat; */
     background-size: 100%;
     background-attachment: fixed;
     height: 251px;
@@ -1175,6 +1178,7 @@ a:hover {
 
 
 /* FOOTER LIST DECORATION */
+/* FOOTER LIST DECORATION */
 .footer-links-container li{
     width: 160px;
     font-size: 14px;
@@ -1198,6 +1202,7 @@ a:hover {
 
 
 /* CONTACT LIST */
+/* CONTACT LIST */
 .footer-links-container .contact-links h2{
     margin-top: 14px;
     font-size: 14px;
@@ -1212,10 +1217,3 @@ a:hover {
 .footer-links-container .contact-links span{
     display: block;
 }
-
-
-
-
-
-
-
