@@ -21,6 +21,31 @@ a:hover {
 
 
 
+/* Fixed Top */
+.fixed-section{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+}
+
+
+
+
+.top-empty-section{
+    height: 155px;
+    width: 100%;
+    background-color: rebeccapurple;
+}
+
+
+
+
+
+
+
+
+
 
 /* Top Section */
 .top-section-container{
@@ -29,7 +54,6 @@ a:hover {
     align-items: center;
     width: 100%;
     margin-top: 30px;
-
 }
 
 
@@ -310,7 +334,7 @@ a:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 0px;
+    padding-top: 0px;
     position: relative;
     overflow: hidden;
 }
