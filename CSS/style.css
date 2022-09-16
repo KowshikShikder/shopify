@@ -92,6 +92,7 @@ a:hover {
     border-radius: 5px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+    cursor: pointer;
 
 }
 
@@ -121,6 +122,7 @@ a:hover {
     position: relative;
     height: 18.66px;
     width: 18.66px;
+    cursor: pointer;
 }
 
 
@@ -206,6 +208,11 @@ a:hover {
 .navigation-parent .nav-catagories span:nth-child(1) img{
     height: 100%;
     width: 100%;
+    cursor: pointer;
+}
+
+.navigation-parent .nav-catagories span:nth-child(3) img{
+    cursor: pointer;
 }
 
 
@@ -234,13 +241,15 @@ a:hover {
     letter-spacing: -0.4px;
     cursor: pointer;
     font-size: 14px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s;
 }
 
 
 
 /* ACTIVE NAV */
 .nav-active{
-    border-bottom: 3px solid #FF4F04;
+    border-bottom: 3px solid #FF4F04 !important;
     color: #FF4F04;
 }
 
@@ -248,6 +257,23 @@ a:hover {
 .nav-active a{
     color: #FF4F04;
 }
+
+
+
+
+
+
+
+/* hover effect */
+
+.navigation-parent .nav-container li:hover a{
+    color: #FF4F04;
+}
+
+
+
+
+
 
 
 
@@ -479,6 +505,15 @@ a:hover {
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.068);
+    transition: 0.3s;
+}
+
+
+/* hover Effect */
+.recommended-box:hover{
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.068);
+    transform: scale(1.01);
 }
 
 
@@ -553,11 +588,13 @@ a:hover {
     background-color: white;
     z-index: 5;
     cursor: pointer;
-
+    transition: 0.3s;
 }
 
-
-
+.common-button:hover{
+    background-color: #FF4F04;
+    color: white;
+}
 
 
 
@@ -642,9 +679,6 @@ a:hover {
 
 
 
-
-
-
 /* NEW COLLECTION SECTION */
 /* NEW COLLECTION SECTION */
 /* NEW COLLECTION SECTION */
@@ -673,9 +707,7 @@ a:hover {
     display: grid;
     grid-template-columns: 45% 45%;
     justify-content: space-around;
-    
     padding: 6px;
-
 }
 
 
@@ -696,6 +728,15 @@ a:hover {
     background-color: #F5F5F5;
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.068);
+    transition: 0.3s;
+}
+
+
+/* hover Effect */
+.multiple-products-parent .product-box:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.068);
+    transform: scale(1.01);
 }
 
 
@@ -785,11 +826,18 @@ a:hover {
     background-color: #F5F5F6;
     border-radius: 10px;
     margin: 6px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.068);
+    transition: 0.3s;
 }
 
 
 
 
+
+.single-products-parent:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.068);
+    transform: scale(1.01);
+}
 
 
 
@@ -905,7 +953,7 @@ a:hover {
 /* Trending Week Section */
 /* Trending Week Section */
 .trending-week-section{
-    width: 95%;
+    width: 90%;
     margin: auto;
     margin-top: 120px;
 }
@@ -921,7 +969,6 @@ a:hover {
     justify-content: space-between;
     padding: 5px;
     height: 729px;
-    /* width: 100%; */
     margin-bottom: 130px;
 }
 
@@ -934,10 +981,22 @@ a:hover {
 .trending-product-container .trending-product-box{
     height: 313px;
     width: 269px;
-    /* width: 100px; */
     width: 98%; 
     border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.068);
+    transition: 0.3s;
 }
+
+
+
+/* hover effect */
+.trending-product-container .trending-product-box:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.068);
+    transform: scale(1.01);
+}
+    
+
+
 
 
 
@@ -945,7 +1004,6 @@ a:hover {
 /* TRADING IMAGE */
 .trending-product-container .trending-product-box .product-image{
     height: 269px;
-    /* width: 269px; */
     width: 100%;
 }
 
@@ -1092,7 +1150,6 @@ a:hover {
 
 
 
-
 /* FOOTER LIST DECORATION */
 .footer-links-container li{
     width: 160px;
@@ -1100,6 +1157,17 @@ a:hover {
     font-family: 'Roboto', sans-serif;
     margin-top: 15px;
 }
+
+
+
+.footer-links-container li a{
+    transition: 0.3s;
+}
+
+.footer-links-container li:hover a{
+    padding-left: 5px;
+}
+
 
 
 
